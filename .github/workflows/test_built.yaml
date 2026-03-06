@@ -1,6 +1,6 @@
 name: Test and Build
 
-on: [worflow_dispatch]
+on: [workflow_dispatch]
 
 jobs:
   demo:
