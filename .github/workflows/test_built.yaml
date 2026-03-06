@@ -6,7 +6,7 @@ jobs:
   demo:
     runs-on: ubuntu-latest
     steps:
-      - name: Verification des fichiers du runner
+      - name: Verification des fichiers du runner (linux)
         run: ls -a -l
 
 
