@@ -24,4 +24,10 @@ jobs:
       - name: Lancement des tests unitaires
         run: npm run test
 
+      - name: Buildation du code TS vers JS
+        run: npm run build
+
+      - name: Vérifier le résultat de la buildation (projet "Hello World")
+        run: npm run start
+
 
