@@ -8,5 +8,9 @@ jobs:
     steps:
       - name: Verification des fichiers du runner (linux)
         run: ls -a -l
+      - name: Clone du projet dans le runner (checkout)
+        uses: actions/checkout@v6
+      - name: Vérification de sfichiers après l'action "checkout"
+        run: ls -a -l
 
 
